@@ -54,10 +54,23 @@ TabController tabController;
           Text("Stop watch"),
 
           ],
-controller: tabController,
+          controller: tabController,
        ),
         backgroundColor: Colors.deepPurpleAccent,
       ),
+    
+    body: TabBarView(
+
+      children: <Widget>[
+
+
+          Text("Time"),
+          Text("Stop watch"),
+
+
+      ],
+    controller: tabController,
+    ),
     
     );
   }
